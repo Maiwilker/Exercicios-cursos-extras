@@ -1,2 +1,32 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+algoritmo "Tabuada"
+// Função :
+// Autor :
+// Data : 31/03/2022
+// Seção de Declarações 
+var
+N,R:inteiro
+inicio
+N<-0
+
+repita
+N<-N+1
+R<-2
+Escreval(R, "x" ,N ,"=",R*N)
+ate N=10
+R<-R+1
+N<-0
+repita
+N<-N+1
+Escreval(R, "x" ,N,"=",R*N)
+ate N=10
+R<-R+1
+N<-0
+repita
+N<-N+1
+Escreval(R, "x" ,N,"=",R*N)
+ate N=10
+
+// Seção de Comandos 
+fimalgoritmo
