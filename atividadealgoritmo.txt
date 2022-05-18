@@ -1,0 +1,29 @@
+Algoritmo "Consumo_agua"
+
+
+Var
+	N,Ap,C,apart,v: inteiro
+	Mai: real
+
+Inicio
+
+ 	Escreva (" Qual a quantidade de apartamentos ? ")
+ 	 leia (N)
+
+  	Para v de 1 ate N passo 1 faça
+
+      Escreva (" Número do apartamento : ")
+       leia(Ap)
+      Escreva (" Consumo de água em litros : ")
+       leia(C)
+        
+   	 Se C > Mai então
+   	 Mai <- C
+   	 apart<-Ap
+
+    Fim_se
+   Fim_para
+ 
+    Escreval (" O apartamento ", apart ," consumiu ", Mai/1000,"  metros cúbicos de água sendo o maior consumo do condominio")
+
+Fim
