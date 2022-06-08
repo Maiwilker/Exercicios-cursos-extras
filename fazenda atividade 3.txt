@@ -1,0 +1,70 @@
+Algoritmo "Fazenda"
+
+
+Var
+
+   p1: vetor [1..21] de inteiro
+   p2: vetor [1..21] de inteiro
+   i,q,p:inteiro
+
+Inicio
+
+
+   escreval("===== Separação de animais por pasto =====")
+   
+   p<-1
+   q<-1	
+   
+   para i de 1 ate 42 passo 1 faça
+       
+        Se i mod 2 = 0 então
+            
+         p1[q]<- i
+         q<-q+1
+
+        
+        senão
+   
+       
+ 	    p2[p]<- i
+         p<-p+1
+   
+        fim_se
+  
+   fim_para
+   
+   
+  escreval ("===== Animais que vão para o pasto 1 ===== ")
+  
+    para i de 1 ate 21 passo 1 faça
+       
+       
+      
+        escreva ("{",p1[i],"},")
+ 
+      
+            
+   fim_para
+   
+  escreval ("===== Animais que vão para o pasto 2 ===== ")
+   
+   para i de 1 ate 21 passo 1 faça
+      
+      
+     
+      escreval  ("{",p2[i],"},")
+     
+     
+
+   fim_para
+
+
+
+Fim
+
+
+
+
+
+
+
